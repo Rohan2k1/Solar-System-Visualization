@@ -163,7 +163,7 @@ img{
     right: 0.8em;
     width: 1.5em; /* Reduced from 2em */
     height: 1.5em;
-    background-image: url('./mercury.png');
+    background-image: url('./image/mercury.png');
     background-size: cover;
 }
 .venus::before {
@@ -171,7 +171,7 @@ img{
     right: 2em;
     width: 1.5em; /* Reduced from 2em */
     height: 1.5em;
-    background-image: url('./venus.png');
+    background-image: url('./image/venus.png');
     background-size: cover;
 }
 .earth::before {
@@ -179,7 +179,7 @@ img{
     right: 0em;
     width: 3.5em; /* Reduced from 5em */
     height: 3.5em;
-    background-image: url('./earth.png');
+    background-image: url('./image/earth.png');
     background-size: cover;
 }
 .moon::before {
@@ -187,7 +187,7 @@ img{
     right: 0.2em;
     width: 1em; /* Reduced from 1.2em */
     height: 1em;
-    background-image: url('./moon.png');
+    background-image: url('./image/moon.png');
     background-size: cover;
 }
 .mars::before {
@@ -195,7 +195,7 @@ img{
     right: 3em;
     width: 2em; /* Reduced from 3em */
     height: 2em;
-    background-image: url('./mars.png');
+    background-image: url('./image/mars.png');
     background-size: cover;
 }
 .jupiter::before {
@@ -203,7 +203,7 @@ img{
     right: 3em;
     width: 3.5em; /* Reduced from 5em */
     height: 3.5em;
-    background-image: url('./jupiter.png');
+    background-image: url('./image/jupiter.png');
     background-size: cover;
 }
 .saturn::before {
@@ -211,7 +211,7 @@ img{
     right: 5em;
     width: 3.2em; /* Reduced from 4.5em */
     height: 3.2em;
-    background-image: url('./saturn.png');
+    background-image: url('./image/saturn.png');
     background-size: cover;
 }
 .uranus::before {
@@ -219,7 +219,7 @@ img{
     right: 6.5em;
     width: 3em; /* Reduced from 4em */
     height: 3em;
-    background-image: url('./uranus.png');
+    background-image: url('./image/uranus.png');
     background-size: cover;
 }
 .neptune::before {
@@ -227,7 +227,7 @@ img{
     right: 8em;
     width: 3em; /* Reduced from 4em */
     height: 3em;
-    background-image: url('./neptune.png');
+    background-image: url('./image/neptune.png');
     background-size: cover;
 }
 
