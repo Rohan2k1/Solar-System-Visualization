@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<link rel=stylesheet href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sun">
+      <img src="./sun (1).png" alt="sun">
+    </div>
+    <div class="mercury"></div>
+    <div class="venus"></div>
+    <div class="earth">
+      <div class="moon"></div>
+    </div>
+    <div class="mars"></div>
+    <div class="jupiter"></div>
+    <div class="saturn"></div>
+    <div class="uranus"></div>
+    <div class="neptune"></div>
+  </div>
+
+  <div class="buttons">
+    <button onclick="zoomToPlanet('mercury')">Mercury</button>
+    <button onclick="zoomToPlanet('venus')">Venus</button>
+    <button onclick="zoomToPlanet('earth')">Earth</button>
+    <button onclick="zoomToPlanet('mars')">Mars</button>
+    <button onclick="zoomToPlanet('jupiter')">Jupiter</button>
+    <button onclick="zoomToPlanet('saturn')">Saturn</button>
+    <button onclick="zoomToPlanet('uranus')">Uranus</button>
+    <button onclick="zoomToPlanet('neptune')">Neptune</button>
+</div>
+<div class="planet-details" id="planetDetails">
+    <!-- Planet details will be displayed here -->
+</div>
+</body>
+  <script src="script.js"></script>
+</body>
+
+</html>
